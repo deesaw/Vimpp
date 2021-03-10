@@ -1,0 +1,16 @@
+#setting for mysql server
+#sample settings
+
+max_allowed_packet             = 16M
+
+default_storage_engine         = InnoDB
+max_connections                = 151                                  
+max_user_connections           = 145                                  
+thread_cache_size              = 151                                  
+
+sort_buffer_size               = 2M                                   
+tmp_table_size                 = 32M                                  
+
+read_buffer_size               = 128k                                 
+read_rnd_buffer_size           = 256k                                 
+join_buffer_size               = 128k    

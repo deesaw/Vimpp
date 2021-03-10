@@ -1,0 +1,2 @@
+pipenv install django djangorestframeework django-rest-knox
+pin install pyodbc
